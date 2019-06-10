@@ -11,8 +11,11 @@ import com.denisimusit.testtask.R;
 import com.denisimusit.testtask.presentation.presenter.detailsState.DetailsStatePresenter;
 import com.denisimusit.testtask.presentation.view.detailsState.DetailsStateView;
 
+import javax.inject.Inject;
+
 public class DetailsStateFragment extends MvpFragment implements DetailsStateView {
     public static final String TAG = "DetailsStateFragment";
+    @Inject
     @InjectPresenter
     DetailsStatePresenter mDetailsStatePresenter;
 

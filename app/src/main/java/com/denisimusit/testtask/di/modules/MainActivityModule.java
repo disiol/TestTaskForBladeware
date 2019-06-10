@@ -4,6 +4,7 @@ import com.denisimusit.testtask.di.scopes.FragmentScope;
 import com.denisimusit.testtask.ui.fragment.detailsState.DetailsStateFragment;
 import com.denisimusit.testtask.ui.fragment.home.HomeFragment;
 
+import dagger.Binds;
 import dagger.Module;
 import dagger.android.ContributesAndroidInjector;
 

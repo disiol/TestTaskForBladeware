@@ -1,6 +1,7 @@
 package com.denisimusit.testtask.di.modules;
 
 import com.denisimusit.testtask.di.scopes.ActivityScope;
+import com.denisimusit.testtask.ui.activity.main.MainActivity;
 
 import dagger.Module;
 import dagger.android.ContributesAndroidInjector;

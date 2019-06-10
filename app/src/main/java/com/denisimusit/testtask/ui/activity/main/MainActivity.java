@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 
+import com.denisimusit.testtask.R;
 import com.denisimusit.testtask.presentation.view.main.MainView;
 import com.denisimusit.testtask.presentation.presenter.main.MainPresenter;
 

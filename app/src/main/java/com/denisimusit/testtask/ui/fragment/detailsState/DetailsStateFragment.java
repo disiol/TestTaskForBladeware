@@ -5,19 +5,20 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.denisimusit.testtask.R;
 import com.denisimusit.testtask.presentation.view.detailsState.DetailsStateView;
 import com.denisimusit.testtask.presentation.presenter.detailsState.DetailsStatePresenter;
 
 import com.arellomobile.mvp.MvpFragment;
 import com.arellomobile.mvp.presenter.InjectPresenter;
 
-public class detailsStateFragment extends MvpFragment implements DetailsStateView {
-    public static final String TAG = "detailsStateFragment";
+public class DetailsStateFragment extends MvpFragment implements DetailsStateView {
+    public static final String TAG = "DetailsStateFragment";
     @InjectPresenter
     DetailsStatePresenter mDetailsStatePresenter;
 
-    public static detailsStateFragment newInstance() {
-        detailsStateFragment fragment = new detailsStateFragment();
+    public static DetailsStateFragment newInstance() {
+        DetailsStateFragment fragment = new DetailsStateFragment();
 
         Bundle args = new Bundle();
         fragment.setArguments(args);

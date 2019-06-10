@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.denisimusit.testtask.R;
 import com.denisimusit.testtask.presentation.view.home.HomeView;
 import com.denisimusit.testtask.presentation.presenter.home.HomePresenter;
 

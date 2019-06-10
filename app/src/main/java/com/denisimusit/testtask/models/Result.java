@@ -7,74 +7,55 @@ import com.google.gson.annotations.SerializedName;
 public class Result {
 
     @SerializedName("abbr")
-    private String mAbbr;
+    private String abbr;
     @SerializedName("area")
-    private String mArea;
+    private String area;
     @SerializedName("capital")
-    private String mCapital;
+    private String capital;
     @SerializedName("country")
-    private String mCountry;
+    private String country;
     @SerializedName("id")
-    private Long mId;
+    private Long id;
     @SerializedName("largest_city")
-    private String mLargestCity;
+    private String largestCity;
     @SerializedName("name")
-    private String mName;
+    private String name;
 
-    public Result(String mAbbr,
-                  String mArea,
-                  String mCapital,
-                  String mCountry,
-                  Long mId,
-                  String mLargestCity,
-                  String mName) {
-        this.mAbbr = mAbbr;
-        this.mArea = mArea;
-        this.mCapital = mCapital;
-        this.mCountry = mCountry;
-        this.mId = mId;
-        this.mLargestCity = mLargestCity;
-        this.mName = mName;
+    public Result(String abbr, String area, String capital, String country, Long id, String largestCity, String name) {
+        this.abbr = abbr;
+        this.area = area;
+        this.capital = capital;
+        this.country = country;
+        this.id = id;
+        this.largestCity = largestCity;
+        this.name = name;
     }
 
-    public String getmAbbr() {
-        return mAbbr;
+    public String getAbbr() {
+        return abbr;
     }
 
-    public String getmArea() {
-        return mArea;
+    public String getArea() {
+        return area;
     }
 
-    public String getmCapital() {
-        return mCapital;
+    public String getCapital() {
+        return capital;
     }
 
-    public String getmCountry() {
-        return mCountry;
+    public String getCountry() {
+        return country;
     }
 
-    public Long getmId() {
-        return mId;
+    public Long getId() {
+        return id;
     }
 
-    public String getmLargestCity() {
-        return mLargestCity;
+    public String getLargestCity() {
+        return largestCity;
     }
 
-    public String getmName() {
-        return mName;
-    }
-
-    @Override
-    public String toString() {
-        return "Result{" +
-                "mAbbr='" + mAbbr + '\'' +
-                ", mArea='" + mArea + '\'' +
-                ", mCapital='" + mCapital + '\'' +
-                ", mCountry='" + mCountry + '\'' +
-                ", mId=" + mId +
-                ", mLargestCity='" + mLargestCity + '\'' +
-                ", mName='" + mName + '\'' +
-                '}';
+    public String getName() {
+        return name;
     }
 }

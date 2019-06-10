@@ -7,20 +7,20 @@ import com.google.gson.annotations.SerializedName;
 public class USA {
 
     @SerializedName("RestResponse")
-    private RestResponse mRestResponse;
+    private RestResponse restResponse;
 
     public RestResponse getRestResponse() {
-        return mRestResponse;
+        return restResponse;
     }
 
     public void setRestResponse(RestResponse restResponse) {
-        mRestResponse = restResponse;
+        this.restResponse = restResponse;
     }
 
     @Override
     public String toString() {
         return "USA{" +
-                "mRestResponse=" + mRestResponse +
+                "restResponse=" + restResponse +
                 '}';
     }
 }

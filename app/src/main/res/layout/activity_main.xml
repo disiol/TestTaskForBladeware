@@ -3,7 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".main.MainActivity">
+    tools:context="com.denisimusit.MainActivity">
 
 
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.denisimusit.testtask.ui.fragment.home.HomeFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </FrameLayout>

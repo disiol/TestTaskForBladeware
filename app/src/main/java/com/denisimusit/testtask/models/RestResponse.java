@@ -10,29 +10,29 @@ import java.util.List;
 public class RestResponse {
 
     @SerializedName("messages")
-    private List<String> mMessages;
+    private List<String> messages;
     @SerializedName("result")
-    private List<Result> mResult;
+    private List<Result> result;
 
     public RestResponse(List<String> mMessages,
                         List<Result> mResult) {
-        this.mMessages = mMessages;
-        this.mResult = mResult;
+        this.messages = mMessages;
+        this.result = mResult;
     }
 
-    public List<String> getmMessages() {
-        return mMessages;
+    public List<String> getMessages() {
+        return messages;
     }
 
-    public List<Result> getmResult() {
-        return mResult;
+    public List<Result> getResult() {
+        return result;
     }
 
     @Override
     public String toString() {
         return "RestResponse{" +
-                "mMessages=" + mMessages +
-                ", mResult=" + mResult +
+                "messages=" + messages +
+                ", result=" + result +
                 '}';
     }
 }

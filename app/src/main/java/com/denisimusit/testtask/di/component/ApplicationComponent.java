@@ -3,9 +3,7 @@ package com.denisimusit.testtask.di.component;
 import android.content.Context;
 
 import com.denisimusit.testtask.ApplicationApp;
-import com.denisimusit.testtask.MainActivity;
 import com.denisimusit.testtask.di.modules.ApplicationModule;
-import com.denisimusit.testtask.di.modules.MainActivityModule;
 
 import javax.inject.Singleton;
 

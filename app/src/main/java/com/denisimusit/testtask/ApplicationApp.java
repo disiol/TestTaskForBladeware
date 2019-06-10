@@ -3,7 +3,6 @@ package com.denisimusit.testtask;
 import android.app.Activity;
 import android.app.Application;
 
-import com.denisimusit.testtask.di.component.ApplicationComponent;
 import com.denisimusit.testtask.di.component.DaggerApplicationComponent;
 
 import javax.inject.Inject;

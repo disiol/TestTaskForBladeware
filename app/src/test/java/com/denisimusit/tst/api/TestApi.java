@@ -1,7 +1,5 @@
 package com.denisimusit.tst.api;
 
-import static junit.framework.TestCase.assertEquals;
-
 //public class TestApi extends ApplicationApp {
 ////    private Api api;
 //////    @Before

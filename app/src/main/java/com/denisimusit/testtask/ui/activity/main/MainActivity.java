@@ -4,14 +4,11 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.denisimusit.testtask.R;
-import com.denisimusit.testtask.presentation.view.main.MainView;
-import com.denisimusit.testtask.presentation.presenter.main.MainPresenter;
-
 import com.arellomobile.mvp.MvpActivity;
-
-
 import com.arellomobile.mvp.presenter.InjectPresenter;
+import com.denisimusit.testtask.R;
+import com.denisimusit.testtask.presentation.presenter.main.MainPresenter;
+import com.denisimusit.testtask.presentation.view.main.MainView;
 
 public class MainActivity extends MvpActivity implements MainView {
     public static final String TAG = "MainActivity";

@@ -5,12 +5,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.denisimusit.testtask.R;
-import com.denisimusit.testtask.presentation.view.home.HomeView;
-import com.denisimusit.testtask.presentation.presenter.home.HomePresenter;
-
 import com.arellomobile.mvp.MvpFragment;
 import com.arellomobile.mvp.presenter.InjectPresenter;
+import com.denisimusit.testtask.R;
+import com.denisimusit.testtask.presentation.presenter.home.HomePresenter;
+import com.denisimusit.testtask.presentation.view.home.HomeView;
 
 public class HomeFragment extends MvpFragment implements HomeView {
     public static final String TAG = "HomeFragment";

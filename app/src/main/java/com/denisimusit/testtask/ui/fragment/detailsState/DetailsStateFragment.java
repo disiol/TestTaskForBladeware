@@ -5,12 +5,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.denisimusit.testtask.R;
-import com.denisimusit.testtask.presentation.view.detailsState.DetailsStateView;
-import com.denisimusit.testtask.presentation.presenter.detailsState.DetailsStatePresenter;
-
 import com.arellomobile.mvp.MvpFragment;
 import com.arellomobile.mvp.presenter.InjectPresenter;
+import com.denisimusit.testtask.R;
+import com.denisimusit.testtask.presentation.presenter.detailsState.DetailsStatePresenter;
+import com.denisimusit.testtask.presentation.view.detailsState.DetailsStateView;
 
 public class DetailsStateFragment extends MvpFragment implements DetailsStateView {
     public static final String TAG = "DetailsStateFragment";

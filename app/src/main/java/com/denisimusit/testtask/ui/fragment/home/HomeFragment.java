@@ -29,7 +29,7 @@ public class HomeFragment extends MvpFragment implements HomeView {
     HomePresenter mHomePresenter;
 
     @Nullable
-    @BindView(R.id.home_RecyclerView)
+    @BindView(R.id.home_fragment_RecyclerView)
     RecyclerView rvMain;
     //И его адаптер
     HomeAdapter chatAdapter;
@@ -63,11 +63,14 @@ public class HomeFragment extends MvpFragment implements HomeView {
     }
 
 
+
+
     @Override
-    public void getListOfStates(USA all) {
-        usaList = new ArrayList<>();
-        usaList.addAll((Collection<? extends USA>) all);
-    }
+    public void getListOfStates(List<USA> all) {
+            usaList = new ArrayList<>();
+            usaList.addAll((Collection<? extends USA>) all);
+        }
+
 
     @Override
     public void showError(Throwable throwable) {

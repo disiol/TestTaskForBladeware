@@ -11,7 +11,7 @@ import javax.inject.Singleton;
 import rx.Observable;
 
 @Singleton
-public class DataStore {
+public class DataStore  {
 
     private Api api;
     private Gson gson;
